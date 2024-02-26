@@ -11,7 +11,7 @@ module.exports = (client) => {
 		client.user.setActivity(status, { type: 'WATCHING' });
 	}, 5000);
 
-	client.user.setUsername('<bot name>'); // sets the bots name
+	client.user.setUsername('ADMIN'); // sets the bots name
 	client.user.setStatus('online'); // sets the bots status
 
 	console.log(`Hello ${client.user.username} is now online!`); // consoles logs this when bot is turned on
