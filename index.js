@@ -24,5 +24,5 @@ client.on('guildMemberRemove', async (message) => {
 	await require('./events/guild/memberRemove')(message);
 });
 
-client.login(BOT_TOKEN)
+client.login(BOT_TOKEN = MTIxMTM3NDE5NjMyOTAyNTU1Ng.GOxkr5.0S0tKRgIa2eIhPOfbLwIsAvCpg-s3svWw_7zeY)
 	.then(() => console.log('[BOT INFO] - Bot has successfully logged in'));
